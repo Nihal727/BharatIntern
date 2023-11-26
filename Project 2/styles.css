@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414; /* Dark background color */
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 1em 5%;
+}
+
+.featured {
+    background-color: #111; /* Dark background color */
+    padding: 40px 5%;
+}
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    flex: 1 1 calc(25% - 20px);
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Set max-width to ensure images don't overflow */
+    border-radius: 8px;
+}
+
+.movie-card h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 50px; /* Set a maximum height for the logo */
+}
+
+
